@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply w-full h-full bg-gradient-to-tl from-indigo-200 via-red-200 to-yellow-100 font-Roboto;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  @font-face {
+    font-family: iranSans;
+    src: url(/src/assets/fonts/iranSans/iranSans.woff) format("woff");
+  }
+}

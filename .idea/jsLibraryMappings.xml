@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/eslint, @types/prettier, @types/reach__router, @types/tailwindcss, jquery-1.9.1, jquery-migrate-1.2.1, toastify-js, toastr, toastr.js}" />
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
+</project>
